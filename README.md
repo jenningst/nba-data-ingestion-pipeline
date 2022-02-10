@@ -22,10 +22,14 @@ Installation instructions
 ## Usage
 ### Export Player Stats by Season
 From the `src` directory, run `python3 -m data.get_player_stats_by_season -h` for usage.
+### Execute Cleaners
+From the `src` directory, run `python3 execute_cleaners.py --s 20XX` to generate CSV data with filtered player stats & game info for desired seasons, as well as, general player & teams information. 
+
 
 ## Tests
 ### Testing Utilities
 From the `src` directory, run `python3 -m unittest -v tests.test_generate_season`
+
 
 ## Credits
 References
@@ -35,6 +39,6 @@ References
 * Blake England
 
 ### Contributors
-* Romith Challa 
+* Troy Jennings 
 * Aditya Bose
-* Troy Jennings
+* Romith Challa
